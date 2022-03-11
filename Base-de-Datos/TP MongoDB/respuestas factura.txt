@@ -1,0 +1,15 @@
+1-db.facturas.find({"$and": [{"cliente.nombre": "Martin"}, {"cliente.apellido": "Zavasi" }]})
+2-db.facturas.find({"item.producto": "TALADRO 12mm"}, {"cliente.nombre":1, "cliente.apellido":1, "cliente.cuit":1, "cliente.region":1})
+3-db.facturas.count({"cliente.region": "NEA"})
+4-db.facturas.find({"fechaVencimiento" : {"$gte": ISODate("2014-02-01T00:00:00.000Z"), "$lt": ISODate("2014-02-28T23:59:59.999Z")}}, {"fechaVencimiento":1})
+5-db.facturas.count({"condPago":"CONTADO"})
+6-db.facturas.find({"$and": [{"cliente.region": "NOA"}, {"condPago": "30 Ds FF"}]}, {"cliente.cuit":1, "cliente.nombre":1, "cliente.apellido":1})
+7-db.facturas.drop()
+8-mongoexport.exe --db ferreteria --collection facturas --out C:\Users\mateo\Desktop\facturas.json
+9-mongoimport.exe --db ferreteria --collection facturas --file C:\Users\mateo\Desktop\facturas.json
+10-db.facturas.deleteMany({"$and": [{"cliente.nombre":"Soledad"}, {"cliente.apellido": "Lavagno"}, {"fechaVencimiento": {"$gte": ISODate("2014-02-24T00:00:00.000Z"), "$lt": ISODate("2014-02-24T23:59:59.999Z")}}]})
+11-db.facturas.distinct("cliente.nombre")
+12-db.facturas.find({"cliente.nombre":"Martin"}).limit(1)
+13-db.facturas.find({"$or": [{"condPaago": "CONTADO"}, {"condPago": "30 Ds FF"}]}, {"cliente.nombre":1, "cliente.apellido":1})
+14-db.facturas.updateMany({$and: [{"cliente.nombre": "Marina"}, {"cliente.apellido":"Malinez"}]}, {$set: {"cliente.cuit": 2544438441241413}})
+15-db.facturas.updateOne({"nroFactura":1034}, {$set: {"condPago": "30 Ds FF"}})

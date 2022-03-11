@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "61aa0904602f6123f77d6dd3"
+  },
+  "nombre": "Matias",
+  "idUsuario": 1000,
+  "password": "hola123"
+},{
+  "_id": {
+    "$oid": "61aa0904602f6123f77d6dd4"
+  },
+  "nombre": "Mateo",
+  "idUsuario": 1001,
+  "password": "1423"
+},{
+  "_id": {
+    "$oid": "61aa0904602f6123f77d6dd5"
+  },
+  "nombre": "Rodrigo",
+  "idUsuario": 1002,
+  "password": "12346789"
+},{
+  "_id": {
+    "$oid": "61aa0904602f6123f77d6dd6"
+  },
+  "nombre": "Diego",
+  "idUsuario": 1003,
+  "password": "12452"
+},{
+  "_id": {
+    "$oid": "61aa0904602f6123f77d6dd7"
+  },
+  "nombre": "Tomas",
+  "idUsuario": 1004,
+  "password": "hola123"
+},{
+  "_id": {
+    "$oid": "61aa0904602f6123f77d6dd8"
+  },
+  "nombre": "Jose",
+  "idUsuario": 1005,
+  "password": "chau1241"
+},{
+  "_id": {
+    "$oid": "61aa0904602f6123f77d6dd9"
+  },
+  "nombre": "Martin",
+  "idUsuario": 1006,
+  "password": "martin4321"
+}]

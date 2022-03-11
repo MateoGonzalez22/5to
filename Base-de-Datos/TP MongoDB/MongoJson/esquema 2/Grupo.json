@@ -1,0 +1,23 @@
+[
+{
+    "nombre": "Grupo1",
+    "idGrupo": 100,
+    "usuario":
+    [
+        
+        _id: ObjectId("61a93a81e1b5905f3481e70f")
+        
+    ]
+},
+{
+    "nombre": "Grupo2",
+    "idGrupo": 101,
+    "usuario":
+    [
+        
+        _id: ObjectId("61a93a81e1b5905f3481e70f"),
+        _id: ObjectId("61a93a81e1b5905f3481e712")
+        
+    ]
+}
+]

@@ -1,0 +1,22 @@
+[
+{
+    "nombre": "Mateo",
+    "idUsuario": 1000,
+    "password": "11311"
+},
+{
+    "nombre": "Francisco",
+    "idUsuario": 1001,
+    "password": "412151"
+},
+{
+    "nombre": "Felipe",
+    "idUsuario": 1002,
+    "password": "151251"
+},
+{
+    "nombre": "Geronimo",
+    "idUsuario": 1003,
+    "password": "151562"
+}
+]

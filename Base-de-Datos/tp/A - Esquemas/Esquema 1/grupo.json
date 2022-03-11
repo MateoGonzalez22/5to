@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "61aa0e7e690645f850afeca7"
+  },
+  "idGrupo": 100,
+  "nombre": "Grupo1",
+  "usuario": [
+    {
+      "nombre": "Matias",
+      "idUsuario": 1000,
+      "password": "hola123"
+    },
+    {
+      "nombre": "Mateo",
+      "idUsuario": 1001,
+      "password": "1423"
+    },
+    {
+      "nombre": "Rodrigo",
+      "idUsuario": 1002,
+      "password": "12346789"
+    },
+    {
+      "nombre": "Martin",
+      "idUsuario": 1006,
+      "password": "martin4321"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61aa0e7e690645f850afeca8"
+  },
+  "nombre": "Grupo3",
+  "idGrupo": 102,
+  "usuario": [
+    {
+      "nombre": "Tomas",
+      "idUsuario": 1004,
+      "password": "hola123"
+    },
+    {
+      "nombre": "Rodrigo",
+      "idUsuario": 1002,
+      "password": "12346789"
+    },
+    {
+      "nombre": "Diego",
+      "idUsuario": 1003,
+      "password": "12452"
+    },
+    {
+      "nombre": "Jose",
+      "idUsuario": 1005,
+      "password": "chau1241"
+    },
+    {
+      "nombre": "Matias",
+      "idUsuario": 1000,
+      "password": "hola123"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61aa0e7e690645f850afeca9"
+  },
+  "idGrupo": 101,
+  "nombre": "Grupo2",
+  "usuario": [
+    {
+      "nombre": "Diego",
+      "idUsuario": 1003,
+      "password": "12452"
+    },
+    {
+      "nombre": "Tomas",
+      "idUsuario": 1004,
+      "password": "hola123"
+    },
+    {
+      "nombre": "Rodrigo",
+      "idUsuario": 1002,
+      "password": "12346789"
+    },
+    {
+      "nombre": "Mateo",
+      "idUsuario": 1001,
+      "password": "1423"
+    },
+    {
+      "nombre": "Jose",
+      "idUsuario": 1005,
+      "password": "chau1241"
+    }
+  ]
+}]

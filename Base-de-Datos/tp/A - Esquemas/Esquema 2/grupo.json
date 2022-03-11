@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "61aa0b31602f6123f77d6dda"
+  },
+  "nombre": "Grupo1",
+  "idGrupo": 100,
+  "usuario": [
+    {
+      "$oid": "61aa0904602f6123f77d6dd3"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd4"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd5"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd9"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61aa0b31602f6123f77d6ddb"
+  },
+  "nombre": "Grupo2",
+  "idGrupo": 101,
+  "usuario": [
+    {
+      "$oid": "61aa0904602f6123f77d6dd6"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd7"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd5"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd4"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd8"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "61aa0b31602f6123f77d6ddc"
+  },
+  "nombre": "Grupo3",
+  "idGrupo": 102,
+  "usuario": [
+    {
+      "$oid": "61aa0904602f6123f77d6dd7"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd5"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd6"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd8"
+    },
+    {
+      "$oid": "61aa0904602f6123f77d6dd3"
+    }
+  ]
+}]

@@ -1,0 +1,36 @@
+     [{
+        "idGrupo": "100",
+        "nombre": "Grupo1",
+        "usuario":
+        [{
+            "nombre": "Pepe",
+            "idUsuario": 1000,
+            "password": "hola123"
+        },
+        {
+            "nombre":"Mateo",
+            "idUsuario": 1001,
+            "password": "1423"
+        },
+        {
+            "nombre": "Rami",
+            "idUsuario": 1002,
+            "password": "12346789"
+      	}
+    	]
+    },
+    {
+        "idGrupo": "101",
+        "nombre": "Grupo2",
+        "usuario":
+        [{
+            "nombre": "Francisco",
+            "idUsuario": "1003",
+            "password": "12452"
+        },
+        {
+            "nombre": "Pepe",
+            "idUsuario": "1000",
+            "password": "hola123"
+        }]
+    }]
