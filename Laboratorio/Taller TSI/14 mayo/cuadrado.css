@@ -1,0 +1,31 @@
+#body {
+	background-color: linen;
+    width: 1080px;
+    height: 980px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    user-select: none;
+    display:block;
+}
+
+#cuadrado {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#cuadrado2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    text-align: center;
+    margin-left: 189px;
+    margin-top: 416px;
+}
+
+.botones {
+	margin-top: 30px;
+}

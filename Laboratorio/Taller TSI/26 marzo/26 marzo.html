@@ -1,0 +1,77 @@
+<head>
+    <title>
+        Pagina prueba
+    </title>
+</head>
+<body>
+    <h1>
+        Ingrese primer numero:
+    </h1>
+    <input type="number" id="primero" placeholder="Ingrese primer numero">
+    <h1>
+        Ingrese segundo numero:
+    </h1>
+    <input type="number" id="segundo" placeholder="Ingrese segundo numero"> 
+    <h1>
+
+    <h1 id = "resultado">
+    
+    </h1>
+
+    </h1>
+    <button onclick="suma()">
+        +
+    </button>
+
+    <button onclick="resta()">
+        -
+    </button>
+
+    <button onclick="multiplicacion()">
+        *
+    </button>
+
+    <button onclick="division()">
+        /
+    </button>
+
+
+<script>
+        
+    var primero = document.getElementById("primero").value;
+    var segundo = document.getElementById("segundo").value;
+
+
+    function suma(){
+        
+        resultado = parseInt(primero) + parseInt(segundo);
+        document.getElementById("resultado").innerHTML = resultado;
+        document.getElementById("resultado").style.color = "rgb(0, 102, 0)";  
+    
+    }
+
+    function resta(){
+        
+        resultado = parseInt(primero) - parseInt(segundo);
+        document.getElementById("resultado").innerHTML = resultado;
+        document.getElementById("resultado").style.color = "rgb(0, 102, 0)";  
+    }
+
+    function multiplicacion(){
+        
+        resultado = parseInt(primero) * parseInt(segundo);
+        document.getElementById("resultado").innerHTML = resultado;
+        document.getElementById("resultado").style.color = "rgb(0, 102, 0)";  
+    }
+    
+    function division(){
+        
+        resultado = parseInt(primero) / parseInt(segundo);
+        document.getElementById("resultado").innerHTML = resultado;
+        document.getElementById("resultado").style.color = "rgb(0, 102, 0)";  
+    }
+
+    
+
+</script>
+</body>

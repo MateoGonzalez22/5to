@@ -1,0 +1,79 @@
+Creo la interfaz SistemaDeMascotas que contiene los metodos que son utilizados por todas las mascotas.
+Creo la clase abstracta Mascota porque nunca necesitamos instanciarla y la clase perro, gato y tortuga heredan
+los mismos datos (nombre, fechaNacimiento, dueño). Implementa la interfaz y la delega a las demas clases.
+
+Creo las clases NO abstractas Perro, Gato y Tortuga, las 3 subclases de Mascota.
+
+Creo el metodo para verificar cuales son las razas que incumplieron la asistencia a la veterinaria
+en la clase Perro
+
+Agrego el atributo Arraylist de fechas de asistencia a la veterinaria, a la clase abstracta Mascota porque lo 
+utilizan las 3 subclases.
+
+
+
+////////////////////////////////////////////////////////////////////////////////
+
+Interfaz:
+
+public interface SistemaDeMascotas{
+
+	public boolean cumpleConVisitasMinimasObligatoriasAñoActual();
+	public boolean asistenciaPerfectaDesdeNacimiento();
+	public String tipoDeMascotaConMejorAsistenciaEnElAño();
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+Clase abstracta Mascota:
+
+public abstract class Mascota implements SistemaDeMascotas(){
+
+	private String nombre;
+	private String fechaNacimiento;
+	private String dueño;
+	private ArrayList<Mascota> fechasAsistencia = new ArrayList<Mascota>();
+	
+}
+
+public boolean cumpleConVisitasMinimasObligatoriasAñoActual(){
+
+}
+public boolean asistenciaPerfectaDesdeNacimiento(){
+
+}
+public String tipoDeMascotaConMejorAsistenciaEnElAño(){
+
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+Clase NO abstracta Perro:
+
+public class Perro extends Mascota(){
+	
+	private String raza;
+	
+}
+
+public String razasQueIncumplieronAsistenciaMinimaDelAño(){
+
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+Clase NO abstracta Gato:
+
+public class Gato extends Mascota(){
+	
+	private String raza;	
+
+}
+
+////////////////////////////////////////////////////////////////////////////////
+
+Clase NO abstracta Tortuga:
+
+public class Tortuga extends Mascota(){
+	
+}

@@ -1,0 +1,7 @@
+a. No, no crearía nuevas clases.
+
+b. Agregaría un atributo llamado "edad" a la clase visitante y luego un metodo que
+cuenta los mayores y menores de edad por separado.
+
+c. Si el id no se genera de forma aleatoria y se genera en orden de llegada crearía un metodo que verifique cual es el id mas grande.
+

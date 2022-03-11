@@ -1,0 +1,55 @@
+<head>
+    <title>
+        Pagina prueba
+    </title>
+</head>
+<body>
+    <h1>
+        Ingrese su nombre:
+    </h1>
+    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+    <h1>
+        Ingrese su apellido:
+    </h1>
+    <input type="text" id="apellido">
+    <h1>
+        Ingrese su edad:
+    </h1>
+    <input type="number" id="edad">
+    <h1 id = "nombreMostrar">
+        
+    </h1>
+    <h1 id = "apellidoMostrar">
+
+    </h1>
+    <h1 id = "edadMostrar">
+
+    </h1>
+    <button onclick="mostrarDatos()">
+        Enter
+    </button>
+
+<script>
+    function mostrarDatos(){
+        var nombre = document.getElementById("nombre").value;
+        var apellido = document.getElementById("apellido").value;
+        var edad = document.getElementById("edad").value;
+        document.getElementById("nombreMostrar").innerHTML = nombre;
+        document.getElementById("nombreMostrar").style.color = "rgb(153, 0, 0)";
+
+        document.getElementById("apellidoMostrar").innerHTML = apellido;
+        document.getElementById("apellidoMostrar").style.color = "rgb(0, 102, 0)";
+
+        document.getElementById("edadMostrar").innerHTML = edad;
+        document.getElementById("edadMostrar").style.color = "rgb(0, 0, 102)";
+        if (edad > 17){
+            document.body.style.backgroundColor = "rgb(0, 51, 102)"
+        }
+
+        else{
+            document.body.style.backgroundColor = "rgb(51, 153, 51)"
+        }
+    }
+    
+</script>
+</body>
